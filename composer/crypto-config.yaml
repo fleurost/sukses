@@ -1,0 +1,21 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: hospital.com
+    Specs:
+      - Hostname: orderer
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.hospital.com
+    EnableNodeOUs: true
+    Template:
+      Count: 2
+    Users:
+      Count: 2
+
+  - Name: Org2
+    Domain: org2.hospital.com
+    EnableNodeOUs: true
+    Template:
+      Count: 2
+    Users:
+      Count: 2
